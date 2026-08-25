@@ -1,0 +1,24 @@
+{
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vless",
+    "settings": {
+      "clients": [
+        {
+          "id": "e4a2b891-3c5d-4f12-a890-7b9c1d2e3f4a",
+          "level": 0
+        }
+      ],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/Smart_iraqq"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom"
+  }]
+}
